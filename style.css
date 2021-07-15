@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top : 0;
+    bottom: 0;;
+}
+
+html {
+    height: 100%
+}
+
+h1 {
+    font-size: 70px;
+}
+
+
+
+header {
+      top: 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      height: 50px;
+}
+
+header ul {
+    margin-left: 40%;
+    display: flex;
+    position: relative;
+}
+
+header ul a{
+    color: orange;
+    list-style: none;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+
+
+}
+
+header ul a:hover{
+    color: orange;
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 15px;
+
+
+}
+
+#main-section {
+    display: flex;
+}
+
+#main-section div {
+    width: 50%;
+}
+
+#main-header {
+    padding: 180px 60px 50px 180px;
+
+}
+
+#main-header a {
+
+        text-decoration: none;
+        font-size: 20px;
+        background-color: orange;
+        padding: 20px 50px;
+        border-radius: 30px;
+        color: white;
+        background-image: linear-gradient(orange,tomato);
+        box-shadow: 2px 2px 10px rgb(228, 202, 154);
+}
+
+
+
+#second-section {
+    height: 600px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100% 650px;
+}
+
+#second-section div {
+    width: 50%;
+}
+
+#second-section img {
+    height: 90%;
+    padding-left: 150px;
+    padding-top: 60px;
+}
+
+
+ #second-main {
+    padding: 120px;
+}
+
+
+#second-main h2 {
+  font-size: 40px;
+  font-weight: 500;
+
+}
+
+#second-main p {
+    font-size: 20px;
+    font-weight: 200;
+    color: gray;
+    text-align: justify;
+  }
+
+
+#second-main a {
+    text-decoration: none;
+        font-size: 20px;
+        background-color: orange;
+        padding: 20px 50px;
+        border-radius: 30px;
+        color: white;
+        background-image: linear-gradient(orange,tomato);
+        box-shadow: 2px 2px 10px rgb(228, 202, 154);
+}
+
+footer {
+    padding: 40px 40px 100px 40px;
+    text-align: center;
+    background-color: black;
+}
+
+footer h4  {
+    font-size: 20px;
+    color: gray;
+}
+
+footer p  {
+    font-weight: 300;
+    color: white;
+}
+
+
+footer h4 span  {
+    color: orange;
+}
+
+
+#section-three {
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-three p {color: gray;
+    width:35%;
+    font-size: 20px;
+}
+
+#recipie-section {
+    padding: 100px;
+    display: flex;
+}
+
+#recipie-section .single {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px gray;
+
+}
+
+.single img {
+    border-radius: 10%;
+    height: 250px;
+    padding-top: 20px;
+    width: 90%;
+    object-fit: cover;
+
+}
+
+.single h2 {
+    font-weight: 700;
+
+}
+
+.single p {
+    margin: 0 100px 20px 100px;
+    color: gray;
+
+}
+
+
+
+#shadow-box {
+    margin: 50px 150px;
+    padding: 50px;
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px gray;
+}
+
+#shadow-box h1 {
+    font-weight: bold;
+    bottom: 0;
+    font-size: 40px;
+}
+
+#shadow-box p {
+    font-weight: 300;
+    bottom: 0;
+    font-size: 18px;
+    color: gray;
+}
+
+#recipie-list {
+    display: flex;
+    margin: 5% 10%;
+}
+
+#recipie-list div {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 29.33%;
+}
+
+.shadow-recipie {
+    margin: 5px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+}
+
+.shadow-recipie img {
+    border-radius: 10%;
+    padding: 15px;
+    height: 50%;
+}
+
+.shadow-recipie h1 {
+    font-size: 40px;
+}
+
+.shadow-recipie h1,
+.shadow-recipie p {
+    padding-left: 15px;
+}
+
+.shadow-recipie p {
+    color: gray;
+}
+
+
+
