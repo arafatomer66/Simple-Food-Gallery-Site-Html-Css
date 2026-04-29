@@ -1,5 +1,7 @@
+# Simple Food Gallery Site
 
+Simple food gallery website built with HTML and CSS.
 
-
-
-This Project hass all the materials for a simple food gallery site.
+## Tech
+- HTML
+- CSS
